@@ -52,7 +52,7 @@ public class moneda extends javax.swing.JFrame implements Runnable{
          Random rand = new Random();
        
      
-     numeroAleatorio = rand.nextInt(6) + 1;
+     numeroAleatorio = rand.nextInt(9) + 1;
      String imagen1 = "";
      switch(numeroAleatorio)
      {
